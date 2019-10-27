@@ -19,19 +19,21 @@ Birthdate: 18/01/1996
 
 
 ## TECHNICAL SKILLS
-
-* JavaScript
-* React.js
-* Vue.js
-* Java
-* C
-* Aframe
-* Couch DB
-* Pouch DB
-* Graphql
-* Node.js
-* MySQL
-* Git
+  <table class="tg">
+    <td> JavaScript </td>
+    <td> React.js </td>
+    <td> Vue.js </td>
+    <td> Java </td>
+    <td> C </td>
+    <td> Aframe </td>
+    <tr>
+    <td> Couch DB </td>
+    <td> Pouch DB </td>
+    <td> Graphql </td>
+    <td> Node.js </td>
+    <td> MySQL </td>
+    <td> Git </td>
+  </table>
 
 ## LANGUAGES
 ```
@@ -39,12 +41,19 @@ English
 Turkish
 ```
 ## EDUCATION
-#### Computer Engineering
-* | Pamukkale University | 2016-Present |
-* | Yasar University | 2014-2016 |
-#### High School Graduation 
-* | Nalan Kaynak Anatolian High School | 2010-2014 | 
+
+* ##### University
+  Pamukkale University 2016 - Present 
+  Yasar University | 2014-2016
+
+* ##### High School
+  Nalan Kaynak Anatolian High School 2010-2014 
+
 ## EXPERIENCE
-* | Host | 2015-2016 (Work&Travel) Rose Cove |
-* | Personal Trainer | 2014-2015 Aktif Fitness Center |
+
+* ##### Host 
+   2015-2016 (Work&Travel) Rose Cove
+  
+* ##### Personal Trainer 
+  2014-2015 Aktif Fitness Center
 
