@@ -18,22 +18,20 @@ Birthdate: 18/01/1996
 * Dexterity
 
 
-## TECHNICAL SKILLS
-  <table class="tg">
-    <td> JavaScript </td>
-    <td> React.js </td>
-    <td> Vue.js </td>
-    <td> Java </td>
-    <td> C </td>
-    <td> Aframe </td>
-    <tr>
-    <td> Couch DB </td>
-    <td> Pouch DB </td>
-    <td> Graphql </td>
-    <td> Node.js </td>
-    <td> MySQL </td>
-    <td> Git </td>
-  </table>
+## TECHNICAL SKILLS  
+
+* JavaScript
+* React.js
+* Vue.js
+* Java
+* C
+* Aframe
+* Couch DB
+* Pouch DB
+* Graphql
+* Node.js
+* MySQL
+* Git
 
 ## LANGUAGES
 ```
