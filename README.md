@@ -40,11 +40,11 @@ Turkish
 ```
 ## EDUCATION
 #### Computer Engineering
-* | Pamukkale University | 2016 - Present |
-* | Yasar University  |  2014 - 2016 |
+* | Pamukkale University | 2016-Present |
+* | Yasar University | 2014-2016 |
 #### High School Graduation 
-* | Nalan Kaynak Anatolian High School  | 2010 - 2014 | 
+* | Nalan Kaynak Anatolian High School | 2010-2014 | 
 ## EXPERIENCE
-* | Host |  2015 - 2016 (Work&Travel) Rose Cove |
-* | Personal Trainer  | 2014 - 2015 Aktif Fitness Center |
+* | Host | 2015-2016 (Work&Travel) Rose Cove |
+* | Personal Trainer | 2014-2015 Aktif Fitness Center |
 
