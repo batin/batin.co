@@ -1,3 +1,3 @@
-## MY CV
+## Here is my info
 
-<a href="cv.batin.co">cv.batin.co</a>
+<a href="https://batin.co">batin.co</a>
