@@ -45,7 +45,7 @@
 }
 
 .intro {
-	padding: 95px 0px 70px 0px;
+	padding: 65px 0px 70px 0px;
 	overflow-x: hidden;
 
 	img {
@@ -61,7 +61,8 @@
 	h1 {
 		&:before {
 			position: absolute;
-			left: -220px;
+			left: 0;
+			right: 0;
 			top: -150px;
 			font-size: 270px;
 			z-index: -1;
@@ -145,3 +146,4 @@ footer {
 		}
 	}
 }
+

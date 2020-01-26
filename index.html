@@ -9,40 +9,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
     <link rel="shortcut icon" href="img/favicon.png" />
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
-		.intro h1:before {
-			/* Edit this with your name or anything else */
-			content: 'BATIN';
-		}
 	</style>
 </head>
 <body>
+	
+	<b class="hr anim" style="position: fixed; top: 2px;"></b>
 	<!-- Navigation -->
-	<div class="main-nav">
-		<div class="container">
-			<header class="group top-nav">
-				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-				    <span class="logo">Menu</span>
-				</div>
-			    <nav id="navbar-1" class="navbar item-nav">
-				    <ul>
-				        <li class="active"><a href="#about">About</a></li>
-				        <li><a href="#experiences">Experiences</a></li>
-				        <li><a href="#skills">Skills</a></li>
-				    </ul>
-				</nav>
-			</header>
+	<div class="main-nav" style="position: fixed; right: 0; z-index: 2; margin-top: 50vh;
+    border-radius: 50px 0 0 50px;">
+		<div class="container center" style="padding-left: 0; padding-right: 0;">
+			<div class="" style="right: 120px">
+				<ul style="margin: 0 2em 2em 2.2em;">
+					<li style="list-style: none;"><a href="http://twitter.com/btnerylmz"><i class="fa fa-twitter fa-lg"></i></a></li>
+					<br>
+					<li style="list-style: none;"><a href="mailto:batineryilmaz@icloud.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+					<br>
+					<li style="list-style: none;"><a href="http://github.com/batin"><i class="fa fa-github fa-lg"></i></a></li>
+					<br>
+					<li style="list-style: none;"><a href="https://t.me/batineryilmaz"><i class="fa fa-send fa-lg"></i></a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 
 	<!-- Introduction -->
 	<div class="intro section" id="about">
-		<div class="container">
-			<!-- <p>Hi, I’m Batin Eryilmaz</p> -->
+		<div class="container center">
+			<p>Hi, I’m Batin Eryilmaz</p>
 			<div class="units-row units-split wrap">
 				<div class="unit-20">
 					<img style="width: 100px; height: 100px; border-radius: 0;" src="img/batin.jpg" alt="Avatar">
@@ -50,18 +48,20 @@
 				<div class="unit-80">
 					<h1>I AM<br><span id="typed"></span></h1>
 				</div>
-				<p>
+				<p style="max-width: 65vw;">
+					<br>
+					<br>
 					Batin lives in Denizli/Turkey. He is interested in sitcoms, video games, sci-fi movies and tv series. Being developer is passion for him.
 					Engaged with Ozde. He is working remotely at Moneo
 				</p>
 			</div>
 		</div>
 	</div>
-
+	
 	<!-- Work Experience -->
-	<div class="work section second" id="experiences">
-		<div class="container">
-			<h1>Work<br>Experiences</h1>
+	<div class="work section" id="experiences">
+		<div class="container center">
+			<h1>Work Experiences</h1>
 			<ul class="work-list">
 				<li>2015-2016</li>
 				<li><a href="#">Rose Cove</a></li>
@@ -89,11 +89,10 @@
 			</ul>
 		</div>
 	</div>
-
 	<!-- Technical Skills -->
-	<div class="skills section second" id="skills">
-		<div class="container">
-			<h1>Technical<br>Skills</h1>
+	<div class="skills section" id="skills">
+		<div class="container center">
+			<h1>Technical Skills</h1>
 			<ul class="skill-list list-flat">
 				<li>Web Technology</li>
 				<li>HTML / CSS / Javascript</li>
@@ -110,9 +109,9 @@
 	</div>
 
 	<!-- Personal Skills -->
-	<div class="skills section second" id="skills">
-		<div class="container">
-			<h1>Personal<br>Skills</h1>
+	<div class="skills last section" id="skills">
+		<div class="container center">
+			<h1>Personal Skills</h1>
 			<ul class="skill-list list-flat">
 				<li>Creative Thinking</li>
 				<ul class="skill-list list-flat">	
@@ -133,30 +132,7 @@
 			</ul>
 		</div>
 	</div>
-
-	<!-- Quote -->
-	<!-- <div class="quote">
-			<div class="container text-centered">
-				<h1>BURAYA BIR YAZI GELECEK</h1>
-			</div>
-		</div> -->
-
-
-	<footer>
-		<div class="container">
-			<div class="units-row">
-			    <div class="unit-100">
-					<ul class="social list-flat center">
-						<li><a href="mailto:batineryilmaz@icloud.com"><i class="fa fa-envelope"></i></a></li>
-						<li><a href="http://twitter.com/btnerylmz"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="http://github.com/batin"><i class="fa fa-github"></i></a></li>
-						<li><a href="https://t.me/batineryilmaz"><i class="fa fa-send"></i></a></li>
-					</ul>
-			    </div>
-			</div>
-		</div>
-	</footer>
-
+	<b class="hr anim" style="position: fixed; bottom: 2px;"></b>
 
 	<!-- Javascript -->
 		<script src="js/jquery.min.js"></script>
@@ -166,7 +142,7 @@
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
-		strings: ["BATIN ERYILMAZ", "BATIN", "ERYILMAZ"],
+		strings: ["DEVELOPER", "BATIN"],
 
 		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
     </script>

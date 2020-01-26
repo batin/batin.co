@@ -1,7 +1,3 @@
-/*
- *  Draco HTML Template by @flamekaizar
- *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
- */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display SC", serif;
   color: #333333; }
@@ -21,6 +17,10 @@ a:hover {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
+.last {
+  margin-bottom: 40px;
+}
+
 .container {
   margin: auto;
   max-width: 662px;
@@ -32,8 +32,11 @@ a:hover {
     margin-left: auto;
     margin-right: auto; }
 
-  footer {
-    text-align: center; } }
+  footer { text-align: center; } 
+  .intro { display: none; }
+  .intro h1:before { display: none; }
+  
+  }
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
@@ -79,35 +82,17 @@ a:hover {
   .main-nav nav ul li.active a {
     color: #4d4d4d; }
 
-.section.second {
-  margin-bottom: 90px; }
-.section .container {
-  position: relative; }
-  .section .container:after {
-    position: absolute;
-    content: url(../img/separator.png);
-    left: 20px; }
-  .section .container h1 {
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    position: relative; }
-
-.intro {
-  padding: 95px 0px 70px 0px;
-  overflow-x: hidden; }
+  .intro {
+    padding: 50px 0px 70px 0px;
+    overflow-x: hidden;
+    display: block;
+  }
   .intro img {
     width: 81px;
     height: 81px;
     border-radius: 99px; }
   .intro .wrap {
     margin: 30px 0px; }
-  .intro h1:before {
-    position: absolute;
-    left: -220px;
-    top: -150px;
-    font-size: 270px;
-    z-index: -1;
-    color: #f4f4f4; }
   .intro h1 span {
     font-size: 47px; }
 
@@ -126,34 +111,65 @@ a:hover {
       .work .work-list li a:hover {
         border-bottom: 1px solid #333333; }
 
-.award .award-list {
-  margin-left: 0px; }
-  .award .award-list li:first-child {
-    font-size: 0.9375em;
-    color: #8c8c8c; }
-
 .skills .skill-list {
   margin-left: 0px; }
   .skills .skill-list li:first-child {
     font-size: 0.9375em;
     color: #8c8c8c; }
 
-.quote {
-  background: url(../img/bg.jpg);
-  padding: 20px 0px;
-  margin-top: 120px; }
-  .quote h1 {
-    margin: 100px 0px;
-    padding: 40px 20px;
-    border: 5px solid #fff;
-    color: #fff; }
-
-footer {
-  padding: 50px 0px 0px 0px; }
-  footer .social li {
-    display: inline;
-    margin-left: 20px; }
-    footer .social li a {
-      font-size: 1.25em;
-      color: #999999; }
-
+  @import url(https://fonts.googleapis.com/css?family=Lato:100);
+ .hr {
+	 width: 100%;
+	 height: 5px;
+	 display: block;
+	 position: relative;
+	 margin-bottom: 0em;
+   padding: 2em 0;
+   border: none;
+}
+ .hr:after, .hr:before {
+	 content: "";
+	 position: absolute;
+	 width: 100%;
+	 height: 5px;
+	 bottom: 50%;
+	 left: 0;
+}
+ .hr:before {
+	 background: linear-gradient(90deg, #333333 0%, #333333 50%, transparent 50%, transparent 100%);
+	 background-size: 15px;
+	 background-position: center;
+	 z-index: 1;
+}
+ .hr:after {
+	 transition: opacity 1s ease, animation 1s ease;
+	 background: linear-gradient(to right, #62efab 5%, #f2ea7d 15%, #f2ea7d 25%, #ff8797 35%, #ff8797 45%, #e1a4f4 55%, #e1a4f4 65%, #82fff4 75%, #82fff4 85%, #62efab 95%);
+	 background-size: 200%;
+	 background-position: 0%;
+	 animation: bar 5s linear infinite;
+}
+ @keyframes bar {
+	 0% {
+		 background-position: 0%;
+	}
+	 100% {
+		 background-position: 200%;
+	}
+}
+ .hr.anim:before {
+   background: linear-gradient(
+    #ffffff 0%, #ffffff 10%, transparent 10%, transparent 20%, #ffffff 20%, #ffffff 30%, transparent 30%, transparent 40%, #ffffff 40%,
+    #ffffff 50%,transparent 50%, transparent 60%, #ffffff 60%, #ffffff 70%, transparent 70%, transparent 80%, #ffffff 80%, 
+    #ffffff 90%, transparent 90%, transparent 100%, #ffffff 100%);
+	 background-size: 1500px;
+	 background-position: center;
+	 z-index: 1;
+	 animation: bar 12s linear infinite;
+}
+ .hr.anim:hover:before {
+	 animation-duration: 20s;
+}
+ .hr.anim:hover:after {
+	 animation-duration: 20s;
+}
+ 
