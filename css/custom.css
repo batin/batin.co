@@ -25,7 +25,7 @@ a:hover {
   margin: auto;
   max-width: 662px;
   padding: 0 20px; 
-margin-left: 15px;}
+  margin-left: 15px;}
 
 @media only screen and (max-width: 767px) {
   .intro img {
@@ -84,6 +84,8 @@ margin-left: 15px;}
     color: #4d4d4d; }
   .section {
    margin-top: 5%; 
+   margin-left: 20%;
+   margin-right: 20%;
   }
   .intro {
     padding: 50px 0px 70px 0px;
