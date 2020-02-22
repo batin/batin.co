@@ -4,6 +4,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  
 }
 body {
   margin: 0;
@@ -23,12 +24,14 @@ nav,
 section,
 summary {
   display: block;
+  font-family: "Kaushan Script" !important;
 }
 audio,
 canvas,
 progress,
 video {
   display: inline-block;
+  font-family: "Kaushan Script" !important;
 }
 audio:not([controls]) {
   display: none;
@@ -202,7 +205,6 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -210,6 +212,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  font-family: "Kaushan Script" !important;
 }
 img {
   max-width: 100%;
@@ -622,7 +625,9 @@ pre tt:after {
     font-size: 100%;
   }
 }
-
+a li body html h1 h2 h3 h4 h5 h6 p ul ol li {
+  font-family: "Kaushan Script" !important;
+}
 
 body.light-mode {
   background-color: #eeeeee;

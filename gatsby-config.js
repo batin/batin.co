@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Batin Eryilmaz`,
-    description: `My resume and my portfolio`,
+    description: `Front-end Developer`,
     author: `@batin`,
   },
   plugins: [
@@ -14,6 +14,16 @@ module.exports = {
         classNameLight: 'light-mode',
         storageKey: 'darkMode',
         minify: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Kaushan Script`,
+          },
+        ],
       },
     },
     {
