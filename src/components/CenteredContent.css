@@ -1,0 +1,26 @@
+.section {
+  height: 100vh;
+}
+
+.centeredHeader {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 80%;
+    height: 3em;
+    line-height: 1.5em;
+    font-size: 10vw;
+    font-family: "Kaushan Script";
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: auto;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 800px) {
+ .centered {
+    font-size: 4vw;
+  }
+}

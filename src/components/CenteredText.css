@@ -1,0 +1,29 @@
+
+.centered {
+  line-height: 1.5em;
+  font-size: 10vw;
+  font-family: "Kaushan Script";
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 800px) {
+ .centered {
+    font-size: 6vw;
+  }
+}
+
+.centeredTextContainer {
+    width: max-content;
+    height: auto;
+}
+
+.centeredText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
