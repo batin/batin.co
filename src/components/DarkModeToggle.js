@@ -3,12 +3,11 @@ import useDarkMode from 'use-dark-mode';
 import Toggle from 'react-toggle';
 
 const DarkModeToggle = () => {
-  const darkMode = useDarkMode(false);
-
+  const darkMode = useDarkMode(true);
   return (
     <div>
       <Toggle
-        defaultChecked={true}
+        defaultChecked={false}
         icons={{
           checked: <span role="img" aria-label="change-theme"> 🌙 </span>,
           unchecked: <span role="img" aria-label="change-theme"> ☀️ </span>,
