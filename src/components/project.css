@@ -11,18 +11,17 @@
 
 .mobile-projects-container {
   display:flex;
-
   width:max-item;
-  
 }
 
 .project-one {
-  margin-right: 5vw;
+  margin-right: 2vw;
 }
 
 .project-two {
-
+  margin-right: 2vw;
 }
+
 .project-three {
 
 }

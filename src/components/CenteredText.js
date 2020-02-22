@@ -11,7 +11,6 @@ const CenteredText = () => (
         Batın Eryılmaz
     </h1>
     </div>
-    
   </div>
   
 )
