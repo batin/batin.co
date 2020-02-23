@@ -7,12 +7,27 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   margin: auto;
-  overflow: hidden;
 }
 
 @media only screen and (min-width: 800px) {
  .centered {
     font-size: 6vw;
+  }
+  .btn {
+    border: 2px solid;
+    border-radius: 18px;
+    width: max-content;
+    margin-top: 50%;
+    margin-bottom: -40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: rgba(0,173,181,0.4)  
+  }
+
+  .btn .centered {
+    font-size: 2.5em;
   }
 }
 
@@ -27,3 +42,21 @@
     justify-content: center;
     height: 90vh;
 }
+
+.btn {
+  width: max-content;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 40%;
+  margin-bottom: -70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid;
+  border-radius: 18px;
+  font-size: small;
+  background-color: rgba(0,173,181,0.4)  
+}
+
+.btn .centered {
+    font-size: 1.5em;
+  }

@@ -1,0 +1,85 @@
+#about {
+  
+}
+
+.header {
+  /* position: absolute; */
+  top: 10%;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 3em;
+  line-height: 1.5em;
+  font-size: 7vw;
+  font-family: "Kaushan Script";
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: auto;
+  /* overflow: hidden; */
+}
+
+@media only screen and (min-width: 800px) {
+ .centeredHeader {
+    font-size: 5vw;
+  }
+}
+
+.about-me-text {
+  font-family: "Kaushan Script";
+  font-size: 1.6em;
+  line-height: 2em;
+  letter-spacing: 1px;
+  font-weight: 200;
+  max-width: 80%;
+  margin: auto;
+}
+
+.work {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: x-large;
+}
+
+.work h3 {
+  font-family: "Kaushan Script";
+  font-size: 1em;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+
+.work-list {
+  margin-left: 0px;
+  border-left: 2px solid;
+  padding-left: 15px;
+  border-width: 2px;
+}
+
+.work-list li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.link {
+  color: #00adb5;
+  text-decoration: none;
+
+}
+
+.work-group {
+  width: max-content;
+  margin: 0;
+}
+
+#resume {
+  /* margin: auto; */
+  /* margin-top: 20% !important; */
+}
+
+@media only screen and (max-width: 400px) {
+  .work-group {
+    width: max-content;
+    margin: 0;
+    /* display: -webkit-box; */
+  }
+}

@@ -5,7 +5,7 @@ import './project.css'
 const MacbookPricesProject = (props) => (
   <div className="project">
     <div className="centeredHeader" style={{ fontSize: '2em' }}> {props.header}</div>
-    <ReactPlayer url={props.video} controls width="100%" height="100%" />
+    <ReactPlayer url={props.video} muted playing loop controls width="100%" height="100%" />
   </div>
 )
 
