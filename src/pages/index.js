@@ -11,7 +11,7 @@ import CenteredContent from '../components/CenteredContent';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section id="header" className="section">
+    <section id="header" className="home-section">
       <CenteredText />
       <div className="scrollBtnContainer" onClick={() => scrollTo('#portfolio')} >
         <div className="button-inner-container">
@@ -21,7 +21,7 @@ const IndexPage = () => (
         </div>
       </div> 
     </section>
-    <section id="portfolio" className="section" style={{ paddingTop: '3em' }}>
+    <section id="portfolio" className="home-section" style={{ paddingTop: '3em' }}>
       <CenteredContent />
     </section>
   </Layout>

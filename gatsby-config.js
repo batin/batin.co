@@ -23,6 +23,15 @@ module.exports = {
           {
             family: `Kaushan Script`,
           },
+          {
+            family: `Shadows Into Light`,
+          },
+          {
+            family: `Merienda`,
+          },
+          {
+            family: `Permanent Marker`,
+          },
         ],
       },
     },

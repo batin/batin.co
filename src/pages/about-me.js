@@ -9,57 +9,57 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="About me" />
     <section id="about" className="section">
-      <div className="centeredText">
-        <div className="centeredTextContainer" style={{ width: '100%' }}>
-        <h1 className="header" style={{ color: '#00adb5' }}>
-          About Me
+      <div className="about-me-container">
+        <div className="section-header">
+          <h1 className="header" style={{ color: '#00adb5' }}>
+            About Me
           </h1>
+        </div>
+        <div className="section-text">
           <p className="about-me-text">
             Batin lives in Denizli/Turkey. <br /> He is interested in sitcoms, video games, sci-fi movies and tv series. <br /> Being developer is passion for him.  <br /> He loves working remotely.
-          </p>
+            </p>
         </div>
-      </div>
-      <div className="scrollBtnContainer" onClick={() => scrollTo('#resume')} >
-        <div className="button-inner-container">
-          <span className="span-one"></span>
-          <span className="span-two"></span>
-          <span className="span-three"></span>
+        <div className="scrollBtnContainer" onClick={() => scrollTo('#resume')} >
+          <div className="button-inner-container">
+            <span className="span-one"></span>
+            <span className="span-two"></span>
+            <span className="span-three"></span>
+          </div>
         </div>
       </div>
     </section>
     <section id="resume" className="section">
-      <div className="centeredText">
-        <div className="centeredTextContainer" style={{ width: '100%' }}>
-          <h1 className="centeredHeader" style={{ color: '#00adb5', marginTop: '500px' }}>
+      <div className="resume-container">
+        <div className="resume-section-header">
+          <h1 className="resume-text" style={{ color: '#00adb5' }}>
             My Resume
           </h1>
-          <div className="work">
+        </div>
+        <div className="resume-section-text-container" >
+
+          <div className="resume-inner">
             <h3>Work Experiences</h3>
             <div className="work-group">
               <ul className="work-list">
-                <li><a className="link" href="https://www.leoapp.com/">Leo AR</a> 2018-2019 </li>
-                <li>Front-end Developer</li>
+                <li><a className="link" href="https://www.leoapp.com/">Leo AR</a> 2018-2019 - Front-end Developer</li>
               </ul>
               <ul className="work-list">
-                <li><a className="link" href="https://www.mojilala.com/">MojiLaLa</a> 2018-2019 </li>
-                <li>Front-end Developer</li>
+                <li><a className="link" href="https://www.mojilala.com/">MojiLaLa</a> 2018-2019 - Front-end Developer</li>
               </ul>
             </div>
             <div className="work-group">
               <ul className="work-list">
-                <li><a className="link" href="#resume">Aktif Fitness</a> 2014-2015 </li>
-                <li>Personal Trainer</li>
+                <li><a className="link" href="#resume">Aktif Fitness</a> 2014-2015 - Personal Trainer</li>
               </ul>
-
               <ul className="work-list">
-                <li><a className="link" href="#resume">Rose Cove</a> 2015-2016 </li>
-                <li>Host</li>
+                <li><a className="link" href="#resume">Rose Cove</a> 2015-2016 - Host</li>
               </ul>
             </div>
 
           </div>
 
-          <div className="work" style={{marginTop: 40}}>
+          <div className="resume-inner" style={{ marginTop: 40 }}>
             <h3>Technical Skills</h3>
             <ul className="work-list">
               <li className="link">Web Technology</li>
@@ -73,10 +73,11 @@ const NotFoundPage = () => (
               <li className="link">Framework</li>
               <li>React.js / React Native</li>
               <li>Vue.js / A-Frame</li>
+              <li>Gatsby.js</li>
             </ul>
           </div>
-
-          <div className="work" style={{ marginTop: 40 }}>
+{/* 
+          <div className="resume-inner" style={{ marginTop: 40 }}>
             <h3>Personal Skills</h3>
             <ul className="work-list">
               <li>Creative Thinking</li>
@@ -86,9 +87,10 @@ const NotFoundPage = () => (
               <li>Multi-tasking</li>
               <li className="link">Dexterity</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
+
     </section>
   </Layout>
 )
