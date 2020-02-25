@@ -19,12 +19,12 @@ const NotFoundPage = () => (
           <p className="about-me-text">
             Batin lives in Denizli/Turkey. <br /> He is interested in sitcoms, video games, sci-fi movies and tv series. <br /> Being developer is passion for him.  <br /> He loves working remotely.
           </p>
-          <div className="btn" style={{ marginTop: '10%'}}>
-            <a href="https://file.io/uHR88A" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}>
+          <div className="btn">
+            <a href="https://www.pdfhost.net/index.php?Action=Download&File=ce3f2e0e624a44a6c53171c762e76fb4" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}>
               <h3 className="centered"> Download CV </h3>
             </a>
           </div>
-          <div className="btn" style={{ marginTop: '5%'}}>
+          <div className="btn">
             <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
               <h3 className="centered"> Home </h3>
             </Link>
