@@ -20,9 +20,9 @@ const NotFoundPage = () => (
             Batin lives in Denizli/Turkey. <br /> He is interested in sitcoms, video games, sci-fi movies and tv series. <br /> Being developer is passion for him.  <br /> He loves working remotely.
           </p>
           <div className="btn" style={{ marginTop: '10%'}}>
-            <Link to="" style={{ color: 'inherit', textDecoration: 'none' }}>
+            <a href="https://file.io/uHR88A" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }}>
               <h3 className="centered"> Download CV </h3>
-            </Link>
+            </a>
           </div>
           <div className="btn" style={{ marginTop: '5%'}}>
             <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
