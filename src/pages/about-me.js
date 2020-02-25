@@ -18,9 +18,19 @@ const NotFoundPage = () => (
         <div className="section-text">
           <p className="about-me-text">
             Batin lives in Denizli/Turkey. <br /> He is interested in sitcoms, video games, sci-fi movies and tv series. <br /> Being developer is passion for him.  <br /> He loves working remotely.
-            </p>
+          </p>
+          <div className="btn" style={{ marginTop: '10%'}}>
+            <Link to="" style={{ color: 'inherit', textDecoration: 'none' }}>
+              <h3 className="centered"> Download CV </h3>
+            </Link>
+          </div>
+          <div className="btn" style={{ marginTop: '5%'}}>
+            <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
+              <h3 className="centered"> Home </h3>
+            </Link>
+          </div>
         </div>
-        <div className="scrollBtnContainer" onClick={() => scrollTo('#resume')} >
+        <div className="scrollBtnContainer" onClick={() => scrollTo('#resume')} style={{ marginTop: 0}}>
           <div className="button-inner-container">
             <span className="span-one"></span>
             <span className="span-two"></span>
