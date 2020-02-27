@@ -63,9 +63,17 @@
 .resume-container {
   
 }
+
+.mt {
+  margin-top: 20% !important;
+}
+
 @media only screen and (min-width: 800px) {
- .about-me-text {
-  margin-left: 25%;
+  .about-me-text {
+    margin-left: 25%;
+  }
+  .mt {
+    margin-top: 15% !important;
   }
 }
 

@@ -17,6 +17,16 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-141923328-2",
+        head: false,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "batin.co",
+      },
+    },
+    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
