@@ -1,0 +1,17 @@
+.social {
+  height: 40px;
+  /* width: 30px; */
+}
+
+.social-list > li {
+  padding-left: 20px !important;
+  color: #fff;
+}
+
+.social-list {
+  padding-left: 20px !important;
+  color: #fff;
+  right: 10px;
+  position: fixed;
+  padding-top: 2px;
+}

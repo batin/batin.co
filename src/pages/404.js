@@ -1,6 +1,6 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout/Layout"
 import SEO from "../components/seo"
 
 const NotFoundPage = () => (
@@ -15,7 +15,7 @@ const NotFoundPage = () => (
           <a href="/" style={{ textDecoration: 'none' }}>
             <h2
               className="centered"
-              style={{ paddingTop: '1.5em', color: '#00adb5', borderWidth: 1 }}>
+              style={{ marginTop: '1.5em', color: '#00adb5', borderWidth: 1 }}>
               Go Home
         </h2>
           </a>

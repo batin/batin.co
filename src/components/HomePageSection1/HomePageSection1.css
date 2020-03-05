@@ -1,0 +1,60 @@
+.home-section {
+  height: 100vh;
+}
+.centered {
+  line-height: 1.5em;
+  font-size: 10vw;
+  font-family: "Kaushan Script";
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: auto;
+}
+
+@media only screen and (min-width: 800px) {
+ .centered {
+    font-size: 6vw;
+  }
+  .btn {
+    border-radius: 18px;
+    width: max-content;
+    margin-top: 30%;
+    margin-bottom: -40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: rgba(0,173,181,0.4);
+  }
+
+  .btn .centered {
+    font-size: 2.5em;
+  }
+}
+
+.centeredTextContainer {
+    width: max-content;
+    height: auto;
+}
+
+.centeredText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.btn {
+    width: max-content;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: small;
+    background-color: #ffa622;
+}
+
+.btn .centered {
+    font-size: 1.5em;
+  }

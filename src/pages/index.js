@@ -1,29 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 import './home.css'
-import './scrollButton.css'
-import Layout from "../components/layout"
+import Layout from "../components/Layout/Layout"
 import SEO from "../components/seo"
-import scrollTo from 'gatsby-plugin-smoothscroll';
-import CenteredText from '../components/CenteredText';
-import CenteredContent from '../components/CenteredContent';
+import HomePageSection1 from '../components/HomePageSection1/HomePageSection1';
+import HomePageSection2 from '../components/HomePageSection2/HomePageSection2';
+
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <section id="header" className="home-section">
-      <CenteredText />
-      <div className="scrollBtnContainer" onClick={() => scrollTo('#portfolio')} >
-        <div className="button-inner-container">
-          <span className="span-one"></span>
-          <span  className="span-two"></span>
-          <span className="span-three"></span>
-        </div>
-      </div> 
-    </section>
-    <section id="portfolio" className="home-section" style={{ paddingTop: '3em' }}>
-      <CenteredContent />
-    </section>
+    <SEO title="Home" /> 
+    <HomePageSection1 />
+    <HomePageSection2 />
   </Layout>
 )
 

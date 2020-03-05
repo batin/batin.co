@@ -1,0 +1,65 @@
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.header {
+  margin: auto !important;
+  padding-top: 50px;
+  padding-bottom:50px;
+  line-height: 1.5em;
+  font-size: 7vw;
+  font-family: "Kaushan Script";
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.section-text {
+  height: 30vh;
+}
+
+.about-me-container {
+  margin-bottom: 10%;
+}
+@media only screen and (max-height: 555px) { 
+  .about-me-container {
+    margin-bottom: 30%;
+  }
+  .about-me-text {
+    padding-top: 10%;
+    max-width: 60%;
+  }
+  .btn {
+   font-size: 8pt !important;
+  }
+  .about-me-text {
+    font-size: 1em !important;
+  }
+}
+
+.about-me-text {
+  font-family: "Merienda";
+  font-size: 1.2em;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  max-width: 80%;
+  margin: auto;
+  font-weight: 100
+}
+
+.mt {
+  margin-top: 20% !important;
+}
+
+@media only screen and (min-width: 800px) {
+  .about-me-text {
+    margin-left: 25%;
+  }
+  .mt {
+    margin-top: 5% !important;
+  }
+}
+
