@@ -17,10 +17,9 @@ const CenteredContent = () => {
     }
   `)
   const videos = {}
-  videos[data.allFile.edges[0].node.base] = data.allFile.edges[0].node.publicURL
-  videos[data.allFile.edges[1].node.base] = data.allFile.edges[1].node.publicURL
-  videos[data.allFile.edges[2].node.base] = data.allFile.edges[2].node.publicURL
-  videos[data.allFile.edges[3].node.base] = data.allFile.edges[3].node.publicURL
+  data.allFile.edges.forEach(edge => {
+    videos[edge.node.base] = edge.node.publicURL
+  })
   console.log(videos)
   return (
     <div className="projects d-flex flex-column">
