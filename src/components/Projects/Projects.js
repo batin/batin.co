@@ -2,10 +2,10 @@ import React from "react"
 import "./Projects.css"
 import Project from "../Project/Project"
 
-import mojilalaVideo from "../../assets/videos/mojilala.mp4"
-import macbookVideo from "../../assets/videos/macbook.mp4"
-import leoarVideo from "../../assets/videos/leoar.mp4"
-import deskstoryVideo from "../../assets/videos/deskstory.mp4"
+import mojilalaVideo from "../../../../mojilala.mp4"
+import macbookVideo from "../../../../macbook.mp4"
+import leoarVideo from "../../../../leoar.mp4"
+import deskstoryVideo from "../../../../deskstory.mp4"
 
 const CenteredContent = () => (
   <div className="projects d-flex flex-column">
