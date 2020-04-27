@@ -1,11 +1,12 @@
 import React from "react"
-import Projects from '../Projects/Projects';
+import Projects from "../Projects/Projects"
+import "./HomePageSection2.css"
 
-const IndexPage = () => (  
-  <section id="portfolio" className="home-section" style={{ paddingTop: '3em' }}>
-    <h1 className="centeredHeader" style={{ color: '#00adb5' }}>
+const IndexPage = () => (
+  <section id="portfolio" className="home-section">
+    <h2 className="p2-header" style={{ color: "#00adb5" }}>
       My portfolio
-    </h1>
+    </h2>
     <Projects />
   </section>
 )

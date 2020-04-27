@@ -1,0 +1,14 @@
+.p2-header {
+  font-size: 60px;
+  font-family: "Kaushan Script";
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 760px) {
+ .p2-header {
+   font-size: 40px;
+   padding-top: 10%;
+ }
+}

@@ -8,11 +8,11 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-smoothscroll`,
     {
-      resolve: 'gatsby-plugin-use-dark-mode',
+      resolve: "gatsby-plugin-use-dark-mode",
       options: {
-        classNameDark: 'dark-mode',
-        classNameLight: 'light-mode',
-        storageKey: 'darkMode',
+        classNameDark: "dark-mode",
+        classNameLight: "light-mode",
+        storageKey: "darkMode",
         minify: true,
       },
     },
@@ -31,16 +31,7 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Kaushan Script`,
-          },
-          {
-            family: `Shadows Into Light`,
-          },
-          {
-            family: `Merienda`,
-          },
-          {
-            family: `Permanent Marker`,
+            family: `Kaushan Script\:100,200,300,400,400i,700`,
           },
         ],
       },

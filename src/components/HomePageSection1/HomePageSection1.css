@@ -1,60 +1,46 @@
-.home-section {
-  height: 100vh;
+section {
+  height: 100vh !important;
 }
+
 .centered {
   line-height: 1.5em;
-  font-size: 10vw;
+  font-size: 40px;
   font-family: "Kaushan Script";
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin: auto;
 }
 
-@media only screen and (min-width: 800px) {
- .centered {
-    font-size: 6vw;
+@media only screen and (min-width: 760px) {
+  .centered {
+    font-size: 80px;
   }
   .btn {
-    border-radius: 18px;
+    border-radius: 15px;
     width: max-content;
-    margin-top: 30%;
-    margin-bottom: -40%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 2em;
     padding-right: 2em;
-    background-color: rgba(0,173,181,0.4);
   }
-
-  .btn .centered {
-    font-size: 2.5em;
-  }
-}
-
-.centeredTextContainer {
-    width: max-content;
-    height: auto;
-}
-
-.centeredText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
 }
 
 .btn {
-    width: max-content;
-    padding-left: 2em;
-    padding-right: 2em;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 8px;
-    font-size: small;
-    background-color: #ffa622;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+
 }
 
-.btn .centered {
-    font-size: 1.5em;
-  }
+.button { 
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Kaushan Script";
+  background-color: #ffa622;
+}

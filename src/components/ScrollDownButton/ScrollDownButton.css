@@ -45,15 +45,6 @@
   }
 }
 
-  .aboutMe {
-    margin-top: 40% !important;
-  }
-
-@media only screen and (min-width: 800px) {
-  .aboutMe {
-    margin-top: 0 !important;
-  }
-}
 
 @-webkit-keyframes goTop {
   0% {
@@ -83,12 +74,8 @@
 }
 
 .scrollBtnContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: max-content;
-  margin-top: -40%;
+  position: absolute;
+  bottom: 10%;
 }
 .button-inner-container{
   width:30px;
