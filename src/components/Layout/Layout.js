@@ -7,10 +7,10 @@ import "bootstrap/dist/css/bootstrap.min.css"
 const Layout = ({ children }) => {
   return (
     <>
-      <navbar className="navbar">
+      <div className="navbar">
         <DarkMode />
         <Socials />
-      </navbar>
+      </div>
       <main>{children}</main>
     </>
   )

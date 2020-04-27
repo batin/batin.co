@@ -7,7 +7,7 @@ const DarkModeToggle = () => {
   return (
     <div>
       <Toggle
-        unchecked
+        unchecked="true"
         icons={{
           checked: (
             <span role="img" aria-label="change-theme">
