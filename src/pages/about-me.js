@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import "./about-me.css"
 import Layout from "../components/Layout/Layout"
 import SEO from "../components/seo"
