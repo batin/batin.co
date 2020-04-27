@@ -16,30 +16,31 @@ const CenteredContent = () => {
       }
     }
   `)
-  const videos = {}
+
+  const datas = {}
   data.allFile.edges.forEach(edge => {
-    videos[edge.node.base] = edge.node.publicURL
+    datas[edge.node.base] = edge.node.publicURL
   })
-  console.log(videos)
+
   return (
     <div className="projects d-flex flex-column">
       <div className="row d-flex">
         <div className="projectContainer">
-          <Project header="Leo AR Web" video={videos["leoar.mp4"]} />
+          <Project header="Leo AR Web" video={datas["leoar.mp4"]} />
         </div>
         <div className="projectContainer">
           <Project
             header="MojiLaLa FB Extension"
-            video={videos["mojilala.mp4"]}
+            video={datas["mojilala.mp4"]}
           />
         </div>
       </div>
       <div className="row d-flex">
         <div className="projectContainer">
-          <Project header="Macbook Prices" video={videos["macbook.mp4"]} />
+          <Project header="Macbook Prices" video={datas["macbook.mp4"]} />
         </div>
         <div className="projectContainer">
-          <Project header="Desk Story" video={videos["deskstory.mp4"]} />
+          <Project header="Desk Story" video={datas["deskstory.mp4"]} />
         </div>
       </div>
     </div>

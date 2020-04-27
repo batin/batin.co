@@ -13,11 +13,11 @@ const AboutMeSection2 = () => (
           <li>
             <a
               className="link"
-              href="https://www.itsmoneo.com/"
+              href="https://www.Kommunity.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Moneo
+              Kommunity
             </a>{" "}
             2020-2020 - Mobile Developer
           </li>
