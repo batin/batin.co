@@ -40,6 +40,7 @@ const AboutMeSection1 = () => {
         <a
           href={cv}
           target="_blank"
+          rel="noopener noreferrer"
           download
           style={{ color: "inherit", textDecoration: "none" }}
         >
