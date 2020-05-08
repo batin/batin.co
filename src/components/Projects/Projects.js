@@ -1,26 +1,50 @@
 import React from "react"
-import './Projects.css'
-import Project from '../Project/Project'
+import "./Projects.css"
+import Project from "../Project/Project"
+import { useStaticQuery, graphql } from "gatsby"
 
-import mojilalaVideo from '../../assets/Videos/mojilala.mp4'
-import macbookVideo from '../../assets/Videos/macbook.mp4'
-import leoarVideo from '../../assets/Videos/leoar.mp4'
+const CenteredContent = () => {
+  const data = useStaticQuery(graphql`
+    {
+      allFile {
+        edges {
+          node {
+            publicURL
+            base
+          }
+        }
+      }
+    }
+  `)
 
+  const datas = {}
+  data.allFile.edges.forEach(edge => {
+    datas[edge.node.base] = edge.node.publicURL
+  })
 
-const CenteredContent = () => (
-  <div className="mobile-projects">
-    <div className="mobile-projects-container">
-      <div className="project-one">
-        <Project header="Leo AR Web" video={leoarVideo} />
+  return (
+    <div className="projects d-flex flex-column">
+      <div className="row d-flex">
+        <div className="projectContainer">
+          <Project header="Leo AR Web" video={datas["leoar.mp4"]} />
+        </div>
+        <div className="projectContainer">
+          <Project
+            header="MojiLaLa FB Extension"
+            video={datas["mojilala.mp4"]}
+          />
+        </div>
       </div>
-      <div className="project-two">
-        <Project header={`MojiLaLa FB Extension`} video={mojilalaVideo}/>
-      </div>
-      <div className="project-three">
-        <Project header="Macbook Prices" video={macbookVideo} />
+      <div className="row d-flex">
+        <div className="projectContainer">
+          <Project header="Macbook Prices" video={datas["macbook.mp4"]} />
+        </div>
+        <div className="projectContainer">
+          <Project header="Desk Story" video={datas["deskstory.mp4"]} />
+        </div>
       </div>
     </div>
-  </div>
-)
+  )
+}
 
 export default CenteredContent

@@ -1,11 +1,20 @@
 import React from "react"
-import ReactPlayer from 'react-player'
+import ReactPlayer from "react-player"
+import "./Project.css"
 
-import './project.css'
-const MacbookPricesProject = (props) => (
-  <div className="project">
-    <div className="centeredHeader" style={{ fontSize: '2em' }}> {props.header}</div>
-    <ReactPlayer url={props.video} muted playing controls loop width="100%" height="100%" />
+const MacbookPricesProject = props => (
+  <div className="d-flex flex-column project align-items-center">
+    <h3 className="projectTitle"> {props.header}</h3>
+    <ReactPlayer
+      className="video"
+      url={props.video}
+      muted
+      playing
+      controls
+      loop
+      width="50%"
+      height="100%"
+    />
   </div>
 )
 

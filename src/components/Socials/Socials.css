@@ -1,6 +1,5 @@
 .social {
   height: 40px;
-  /* width: 30px; */
 }
 
 .social-list > li {
@@ -9,9 +8,7 @@
 }
 
 .social-list {
-  padding-left: 20px !important;
   color: #fff;
-  right: 10px;
+  right: 20px;
   position: fixed;
-  padding-top: 2px;
 }

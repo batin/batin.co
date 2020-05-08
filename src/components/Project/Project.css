@@ -1,37 +1,19 @@
-.mobile-projects {
-  display:flex;
-  width: 100vw;
-  align-items:center;
-  justify-content: center;
+.projectTitle {
+  font-family: 'Kaushan Script';
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.mobile-projects-container {
-  display:flex;
-  width:max-item;
-}
-
-.project-one {
-  margin-right: 2vw;
-}
-
-.project-two {
-  margin-right: 2vw;
-}
-
-.projects {
-  display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-@media only screen and (max-width: 806px) {
-  .project-one, .project-two, .project-three, .mobile-projects-container, .mobile-projects{
-    width: 100vw;
+@media only screen and (max-width: 760px) {
+  .projectTitle {
+    font-size: 20px;
   }
-  .mobile-projects, .mobile-projects-container {
-    display:block;
+
+  .video {
+    width: 70% !important;
   }
-  .project-one, .project-two, .project-three {
-    padding: 4vw;
-  }
+
 }

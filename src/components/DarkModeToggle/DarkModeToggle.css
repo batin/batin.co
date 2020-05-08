@@ -52,6 +52,7 @@
     background-color: #393e46;
   }
   .react-toggle-track-check {
+    font-size: 10px !important;
     display: flex;
     align-items: center;
     position: absolute;
@@ -62,7 +63,7 @@
     margin-top: auto;
     margin-bottom: auto;
     line-height: 0;
-    left: 8px;
+    left: 6px;
     opacity: 0;
     -webkit-transition: opacity 0.25s ease;
     -moz-transition: opacity 0.25s ease;
@@ -75,6 +76,7 @@
     transition: opacity 0.25s ease;
   }
   .react-toggle-track-x {
+    font-size: 12px !important;
     display: flex;
     align-items: center;
     position: absolute;

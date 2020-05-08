@@ -1,14 +1,13 @@
 import React from "react"
-import DarkMode from '../DarkModeToggle/DarkModeToggle';
-import Socials from '../Socials/Socials';
+import DarkMode from "../DarkModeToggle/DarkModeToggle"
+import Socials from "../Socials/Socials"
 import "./Layout.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <div
-        className="navbar"
-      >
+      <div className="navbar">
         <DarkMode />
         <Socials />
       </div>

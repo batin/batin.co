@@ -1,75 +1,38 @@
-#portfolio span {
-  position: absolute;
-  bottom: -100%;
-  left: 90%;
-  width: 34px;
-  height: 34px;
-  margin-left: -20px;
-  border-radius: 10px;
-  border-right: 4px solid #00adb5;
-  border-top: 4px solid #00adb5;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-animation: goTop 1.5s infinite;
-  animation: goTop 1.5s infinite;
-  box-sizing: border-box;
-}
-
-@media only screen and (max-width: 320px) {
-  .resume-container {
-    margin-top: 55%;
-  }
-}
-
-/* iphone 8 */
-@media only screen and (max-height: 555px) { 
-  .about-me-container {
-    margin-bottom: 30%;
-  }
-  .resume-container {
-    width: 80%;
-
-  }
-  .section2 {
-    height: 150vh;
-  }
-}
-
-.section2 {
-  height: 100%;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
 .link {
   color: #ffa622;
   text-decoration: none;
 }
 
-.resume-inner h3 {
-  font-family: "Merienda";
+.resumeInner h3 {
+  font-family: 'Segoe UI';
   color: #00adb5;
   font-size: 1.2em;
   line-height: 2em;
   letter-spacing: 1px;
   font-weight: bolder;
-  text-align: center;
 }
 
-.work-list {
-  margin-left: 0px;
+.workList {
+  /* margin-left: 0px; */
   border-left: 2px solid;
   padding-left: 15px;
   border-width: 2px;
-  font-family: "Merienda";
-  font-size: 1em;
+  font-family: 'Segoe UI';
+  font-size: 18px;
   font-weight: 100;
+  min-width: 250px;
 }
 
-.work-list li {
+.ts .workList {
+  min-width: 300px;
+} 
+
+@media only screen and (max-width: 760px) {
+  .workList {
+    font-size: 16px;
+  }
+}
+.workList li {
   list-style-type: none;
   padding-top: 10px;
 }
