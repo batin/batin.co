@@ -1,1 +1,1 @@
-[![codecov](https://codecov.io/gh/batin/batin.co/branch/master/graph/badge.svg)](https://codecov.io/gh/batin/batin.co)
+This is the repository of my <a href="https://batin.dev">personal website.</a>
