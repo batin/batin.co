@@ -8,6 +8,8 @@
 }
 
 .social-list {
+  margin-top: unset !important;
+  margin-bottom: unset !important;
   color: #fff;
   right: 20px;
   position: fixed;

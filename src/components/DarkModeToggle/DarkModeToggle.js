@@ -1,9 +1,14 @@
-import React from "react"
+import React, { useEffect } from "react"
 import useDarkMode from "use-dark-mode"
 import Toggle from "react-toggle"
 import "./DarkModeToggle.css"
 const DarkModeToggle = () => {
-  const darkMode = useDarkMode(true)
+  const darkMode = useDarkMode(false)
+
+  useEffect(() => {
+    darkMode.enable()
+  }, [])
+
   return (
     <div>
       <Toggle
