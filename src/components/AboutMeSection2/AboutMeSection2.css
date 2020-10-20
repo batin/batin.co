@@ -1,10 +1,10 @@
-.link {
+.link, .link:hover {
   color: #ffa622;
   text-decoration: none;
 }
 
 .resumeInner h3 {
-  font-family: 'Segoe UI';
+  font-family: 'system-ui';
   color: #00adb5;
   font-size: 1.2em;
   line-height: 2em;
@@ -13,11 +13,11 @@
 }
 
 .workList {
-  /* margin-left: 0px; */
+  margin-left: 0px;
   border-left: 2px solid;
   padding-left: 15px;
   border-width: 2px;
-  font-family: 'Segoe UI';
+  font-family: 'system-ui';
   font-size: 18px;
   font-weight: 100;
   min-width: 250px;
